@@ -15,15 +15,19 @@ function choosePill(color) {
     setTimeout(() => {
         // Redirect based on pill choice
         if (color === 'red') {
-            // Red pill → Good Look Portfolio (deeper dive)
-            // URL-encode spaces in folder names for proper navigation
-            const redPillPath = '../good%20look%20portfolio/index.html';
-            window.location.href = redPillPath;
+            // Red pill → Good Look Portfolio (deeper dive - 3D Island Adventure)
+            // Update this URL to match your actual Vercel deployment URL
+            const redPillUrl = 'https://my-portfolio-rho-blush-81.vercel.app';
+            // Alternative: If deploying from same repo, use relative path:
+            // const redPillUrl = '../good_look_page';
+            window.location.href = redPillUrl;
         } else {
-            // Blue pill → Quick Look Portfolio
-            // URL-encode spaces in folder names for proper navigation
-            const bluePillPath = '../quick%20look%20portfolio/index.html';
-            window.location.href = bluePillPath;
+            // Blue pill → Quick Look Portfolio (space theme)
+            // Update this URL to match your actual Vercel deployment URL
+            const bluePillUrl = 'https://my-portfolio-c33x.vercel.app/';
+            // Alternative: If deploying from same repo, use relative path:
+            // const bluePillUrl = '../quick_look_page';
+            window.location.href = bluePillUrl;
         }
     }, 1000); // Wait for fade out animation
 }
