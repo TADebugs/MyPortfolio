@@ -93,6 +93,7 @@ h1 {
 .pill-label {
     margin-top: 20px;
     margin-left: -17px;
+    margin-right: -5px;
     text-shadow: 0 0 8px #000;
     animation: glow;
     font-size: 1.3rem;
