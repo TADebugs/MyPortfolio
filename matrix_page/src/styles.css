@@ -40,9 +40,9 @@ h1 {
 }
 
 .pills-container {
-    padding-top: 120px;
+    padding-top: 110px;
     display: flex;
-    gap: 330px;
+    gap: 315px;
     justify-content: center;
     align-items: center;
 }
